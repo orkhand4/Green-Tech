@@ -1,12 +1,15 @@
 import React from 'react'
+import Header from '../components/Header';
+import Hero from '../components/Hero';
+import Footer from '../components/Footer';
 
 
 const Home = () => {
   return (
-    <div className="text-center mt-30">
-      <h1 className="text-4xl font-bold text-green-600">
-        GreenTech Platformasına Xoş Gəlmisiniz!
-      </h1>
+    <div>
+      <Header/>
+      <Hero/>
+      <Footer/>
     </div>
   );
 };
