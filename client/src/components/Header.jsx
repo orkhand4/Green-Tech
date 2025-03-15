@@ -43,7 +43,7 @@ const Header = () => {
               mobileMenuOpen ? "block" : ""
             }`}
           >
-            <ul className="flex gap-6 py-2 tracking-wide">
+            <ul className="flex gap-10 py-2 tracking-wide">
               <li>
                 <Link
                   to="/startups"
@@ -66,14 +66,6 @@ const Header = () => {
                   className="text-gray-700 hover:text-green-600 transition"
                 >
                   Tədbirlər
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/resources"
-                  className="text-gray-700 hover:text-green-600 transition"
-                >
-                  Resurslar
                 </Link>
               </li>
               <li>
